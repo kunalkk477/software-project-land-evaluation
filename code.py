@@ -5,7 +5,7 @@ import tkinter.messagebox
 def team1():
     tan=Tk()
 
-    ab=Label(tan,text="Aman Kumar\nKeshav Garg\nKunal Kishore\nSophie Kakker",font="Helvetica 18")
+    ab=Label(tan,text="A\nK\nK\nS",font="Helvetica 18")
     ab.grid(row=1,column=0)
     khali1=Label(tan,text="         ",font="Helvetica 24")
     khali2=Label(tan,text="         ",font="Helvetica 24")
@@ -20,11 +20,11 @@ def team1():
     khali5.grid(row=1,column=3)
     khali6.grid(row=1,column=5)
 
-    roll=Label(tan,text="401503006\n401503013\n401503014\n401503029",font="Helvetica 18")
+    roll=Label(tan,text="4\n4\n4\n4",font="Helvetica 18")
     roll.grid(row=1,column=2)
-    phone=Label(tan,text="9465001010\n9811967439\n8195905598\n8168617743",font="Helvetica 18")
+    phone=Label(tan,text="9\n9\n8\n8",font="Helvetica 18")
     phone.grid(row=1,column=4)
-    email=Label(tan,text="amankumar0343@gmail.com\nkeshavgarg139@gmail.com\nkunalkk477@gmail.com\nsophie.kakker@gmail.com",font="Helvetica 18")
+    email=Label(tan,text="a@gmail.com\nk@gmail.com\nk@gmail.com\ns@gmail.com",font="Helvetica 18")
     email.grid(row=1,column=6)
     tan.mainloop()
 def llist1():
@@ -100,7 +100,7 @@ def part():
     button4.grid(row=5,column=5)
 
     contact=Label(party,text="Contact us @")
-    contact2=Label(party,text=" kunalkk477@gmail.com")
+    contact2=Label(party,text="k@mail.com")
     contact.grid(row=7,column=1)
     contact2.grid(row=7,column=5)
     party.mainloop()
@@ -400,7 +400,7 @@ def final():
     b8.grid(row=9,column=0)
     abcd.mainloop()
 def create_yes():
-    username=["Kunal","Keshav","Sophie","Aman"]
+    username=["K","Ke","So","Am"]
     password=["a","z=x+iy123","123","chain"]
     root=Tk()
     root.wm_title("login")
@@ -458,7 +458,7 @@ def create_yes():
     b3.grid(row=6,column=4)
     b5=Button(root,image=image,command=back)
     b5.grid(row=6,column=0)
-    contact=Label(root,text="For any query:\nReach us @\n kunalkk477@gmail.com")
+    contact=Label(root,text="For any query:\nReach us @\n k@gmail.com")
     contact.grid(row=7,column=4)
 
     root.mainloop()
@@ -506,9 +506,9 @@ def maina():
     b8.grid(row=7,column=1,padx=4,pady=4)
     b9=Button(window,text="Developer Team",font="Helvetica 10",comman=team)
     b9.grid(row=7,column=3)
-    contact=Label(window,text="\nContact us:\n+91-8195905598\n+91-9811967439",font="times 10 bold",anchor=W,justify=LEFT)
+    contact=Label(window,text="\nContact us:\n+91-8",font="times 10 bold",anchor=W,justify=LEFT)
     contact.grid(row=6,column=0)
-    contact2=Label(window,text="\nEmail:\n Kunalkk477@gmail.com",font="times 10 bold",anchor=W,justify=LEFT)
+    contact2=Label(window,text="\nEmail:\n K7@gmail.com",font="times 10 bold",anchor=W,justify=LEFT)
     contact2.grid(row=6,column=3)
 
     window.mainloop()
